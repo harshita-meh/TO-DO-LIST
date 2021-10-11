@@ -1,0 +1,55 @@
+.header {
+  background-image: url("https://c0.wallpaperflare.com/preview/901/947/658/notes-sticky-notes-sunlight-wall.jpg");
+  height: 150px;
+  color: #fff;
+  text-align: center;
+}
+
+body {
+  background-image: url("https://ak.picdn.net/shutterstock/videos/1031221739/thumb/1.jpg");
+}
+h2 {
+  text-align: center;
+  padding: 10px;
+  background-color: pink;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  display: list-item;
+  cursor: pointer;
+  position: relative;
+  padding:12px 0px;
+  font-size: 18px;
+  transition: 0.2s;
+
+  /* make the list items unselectable */
+
+}
+
+.deleteButton {
+  color: #fff;
+  background-color: #dc3545;
+  border-color: #dc3545;
+  border-style: none;
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: .375rem .75rem;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: 0.3s;
+}
+
+.deleteButton:hover {
+    color: #fff;
+    background-color: #bb2d3b;
+    border-color: #b02a37;
+  }
+
+.done {
+  text-decoration: line-through #ccc;
+}
